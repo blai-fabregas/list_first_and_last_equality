@@ -1,0 +1,20 @@
+# defining a function with parameter
+def equality (numberList):
+    print ("Numbers:", numberList)
+
+# assigning first and last on the list 
+    first_num = numberList [0]
+    last_num = numberList [-1] #-1 represents the the last element on the list
+
+# checking the equality of the first and last elements
+    if first_num == last_num:
+        return True
+    else
+        return False
+    
+first_set = [25, 76, 48, 34, 45]
+second_set = [30, 65, 12, 48, 30]
+
+# printing the result
+print("Set one is equal to set two? ",equality(first_set))
+print("Set one is equal to set two? ",equality(second_set))</s>
